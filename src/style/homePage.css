@@ -1,0 +1,328 @@
+
+/*********/
+/*white-m*/
+/*********/
+
+
+/*********************/
+/*light specifc stuff*/
+/*********************/
+
+.light{
+    color:#111111;
+}
+
+.list-link-light:visited{
+    color:#111111;
+}
+
+
+/*button styling*/
+@media screen and (min-width: 750px) {
+    .view-work-light{
+        position: relative;
+        top: 285px;
+        background: #666666;
+        border: none;
+        border-radius: 10px;
+        padding: 2px;
+        padding-left: 12px;
+        padding-right: 12px;
+    
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10.5px;
+        line-height: 35px;
+        /* or 292% */
+        
+        letter-spacing: 0.02em;
+        
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .view-work-light{
+        position: relative;
+        top: 340px;
+        left: -30px;
+
+        background: #666666;
+        border: none;
+        border-radius: 10px;
+        padding: 2px;
+        padding-left: 12px;
+        padding-right: 12px;
+        
+    
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10.5px;
+        line-height: 35px;
+        /* or 292% */
+        
+        letter-spacing: 0.02em;
+        
+        color: #FFFFFF;
+    }
+}
+
+
+.view-work-light:hover{
+    background-color: #444444;
+ }
+
+/********************/
+/*dark specifc stuff*/
+/********************/
+.list-link-dark:visited{
+    color:white;
+}
+
+.dark{
+    color:white;
+}
+
+/*button styling*/
+@media screen and (max-width: 750px) {
+    .view-work-dark{
+        position: relative;
+        top: 340px;
+        left: -30px;
+
+        background: #eeeeee;
+        border: none;
+        border-radius: 10px;
+        padding: 2px;
+        padding-left: 12px;
+        padding-right: 12px;
+    
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10.5px;
+        line-height: 35px;
+        
+        letter-spacing: 0.02em;
+        
+        color: #333333;
+    }    
+}
+
+@media screen and (min-width: 750px) {
+    .view-work-dark{
+        position: relative;
+        top: 285px;
+        background: #eeeeee;
+        border: none;
+        border-radius: 10px;
+        padding: 2px;
+        padding-left: 12px;
+        padding-right: 12px;
+    
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10.5px;
+        line-height: 35px;
+        
+        letter-spacing: 0.02em;
+        
+        color: #333333;
+    }    
+}
+
+.view-work-dark:hover{
+    background-color: white;
+ }
+
+/*********/
+/*m fonts*/
+/*********/
+#bold{
+    font-weight: 1000;
+}
+
+.title1-m{
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+.list1-m{
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    
+    /* color: #111111; */
+}
+
+
+/**********************/
+/*m divs for alignment*/
+/**********************/
+
+@media screen and (min-width: 750px) {
+    #title1-sizing-m{
+        font-weight: 800;
+        font-size: 76px;
+        line-height: 117px;
+    
+        margin-left: 10px;
+    }
+
+    #align-stuff{
+        left: 24%;
+        position: relative;
+    }
+
+    #wave{
+        width: 71px;
+        height: 71px;
+        margin-top: 20px;
+    }
+
+    #helloImKelly{
+        position: absolute;
+        top: 20px;
+        bottom: 69.76%;
+        display: flex;
+        left:-85px;
+    }
+
+    .little-emoji{
+        width: 20px;
+        height: 18px;
+        margin-top: 3px;
+        margin-right: 8px;
+    }
+
+    .list{
+        top:260px;
+        right: -20px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: -0.03em;
+    }
+
+    .title2-m{
+        position: absolute;
+        top: 225px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 35px;
+        letter-spacing: -0.02em;
+        /* color: #111111; */
+    }
+
+    .heading-m{
+        position: absolute;
+        width: 520px;
+        top: 150px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: -0.01em;
+        /* color: #111111; */
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    #title1-sizing-m{
+        font-weight: 600;
+        font-size: 52px;
+        line-height: 64px;
+        word-wrap: break-word;
+    }
+
+    div span:nth-of-type(2) {
+        display: block;
+    }
+
+    #align-stuff{
+        left: 22%;
+        top: 50px;
+        position: relative;
+    }
+
+    #wave{
+        width: 45px;
+        height: 45px;
+        margin-top: 6px;
+        padding-right: 5px;
+    }
+
+    #helloImKelly{
+        position: absolute;
+        top: 20px;
+        bottom: 69.76%;
+        display: flex;
+        left:-77px;
+    }
+
+    .little-emoji{
+        width: 24px;
+        height: 20px;
+        margin-top: 3px;
+        margin-right: 6px;
+    }
+
+    .list{
+        top:300px;
+        right: 30px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+
+        font-size: 13.5px;
+        line-height: 25px;
+        letter-spacing: -0.03em;
+    }
+
+    /* what I'm up to */
+    .title2-m{
+        position: absolute;
+        top: 260px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 35px;
+        letter-spacing: -0.02em;
+        left: -30px;
+        /* color: #111111; */
+    }
+
+    /* intro blurb */
+    .heading-m{
+        position: absolute;
+        width: 300px;
+        top: 170px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+        left: -30px;
+        /* color: #111111; */
+    }
+}
+
+/*black-m*/
+
+
+/*white-s*/
+
+/*black-s*/

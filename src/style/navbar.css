@@ -1,0 +1,21 @@
+
+.nav-custom{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 50px;
+}
+
+.nav-custom-dark{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 50px;
+    color: white;
+}
+
+
+#nav{
+    z-index: 9999;
+}
+  

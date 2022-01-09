@@ -1,0 +1,132 @@
+
+/*********/
+/*white-m*/
+/*********/
+
+/*white-m fonts*/
+
+#bold{
+    font-weight: 1000;
+}
+
+.title1-m{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 76px;
+    line-height: 117px;
+    color: #111111;
+    margin-left: 10px;
+}
+
+.heading-m{
+    position: absolute;
+    width: 520px;
+    top: 150px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    color: #111111;
+}
+
+
+.title2-m{
+    position: absolute;
+    top: 225px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    color: #111111;
+}
+
+.list1-m{
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    color: #111111;
+}
+
+
+/*white-m divs for alignment*/
+
+#align-stuff{
+    left: 24%;
+    position: relative;
+}
+
+#wave{
+    width: 71px;
+    height: 71px;
+    margin-top: 20px;
+}
+
+#helloImKelly{
+    position: absolute;
+    top: 20px;
+    bottom: 69.76%;
+    display: flex;
+    left:-85px;
+}
+
+.little-emoji{
+    width: 20px;
+    height: 18px;
+    margin-top: 3px;
+    margin-right: 8px;
+}
+
+.list{
+    top:260px;
+    right: -20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+/*href stuff*/
+.list-link:visited{
+    color:#111111;
+}
+
+/*button styling*/
+.view-work{
+    position: relative;
+    top: 285px;
+    background: #333333;
+    border: none;
+    border-radius: 10px;
+    padding: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.5px;
+    line-height: 35px;
+    /* or 292% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
+
+.view-work:hover{
+   background-color: #222222;
+}
+
+/*black-m*/
+
+/*white-s*/
+
+/*black-s*/
