@@ -12,7 +12,7 @@ import Nav from 'react-bootstrap/Nav';
 function ModeColor(){
     const location = useLocation();
     let loc = location.pathname;
-    if (loc === "/" || loc === "/design") {
+    if (loc === "/" || loc === "/design" || loc === "/design-work") {
         return(
             <Container className = "p-4" fluid = {true} style={{display:'flex', justifyContent:'flex-end'}}>
                 <ReactNavBar expand="md" bg="transparent">

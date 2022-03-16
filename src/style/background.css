@@ -1,7 +1,4 @@
-html {
-    overflow: hidden;
-    height: 100%;
-}
+
 
 .background{
     width: 100%;
@@ -9,29 +6,47 @@ html {
 }
 
 #white{
-    background-color: #EDEFF1;
+    background-color: #ffffff;
 }
 
 #black{
     background-color: black;
 }
 
-@media screen and (min-width: 750px) {
+.links{
+    text-decoration: none; /* no underline */
+
+}
+
+@media screen and (min-width: 1000px) {
     .backgrounding{
         position:absolute;
         top: 0px;
         width: 105vw;
-        height: 105vh;
+        z-index: -9999;
+    }
+
+    .backgrounding-work{
+         position:absolute;
+        top: 0px;
+        width: 105vw;
         z-index: -9999;
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1200px) {
     .backgrounding{
         position:absolute;
         top: 0px;
-        width: 130vw;
-        height: 120vh;
+        height: 100vh;
+        width: 135vw;
+        z-index: -9999;
+    }
+
+    .backgrounding-work{
+        position:absolute;
+        top: 0px;
+        width: 135vw;
         z-index: -9999;
     }
 }

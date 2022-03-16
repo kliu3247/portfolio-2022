@@ -1,0 +1,406 @@
+html{
+    overflow-x:hidden;
+}
+  
+/**********************/
+/**regular font sizing*/
+/**********************/
+
+@media screen and (min-width: 1195px) {
+    .h1-font-settings{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 40px;
+        line-height: 36px;
+        margin-left: 0px;
+    }
+
+    .h2-font-settings{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 33px;
+        /* or 175% */
+    }
+
+    .h3-font-settings{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+
+    /*big div styling*/
+    #text-section-regular{
+        display: flex;
+        width: 450px;
+        margin-top: 30px;
+    }
+
+    #whole-project-display{
+        display:flex;
+    }
+
+    #emoji-regular{
+        margin-right: 8px;
+        width: 35px;
+        height: 35px;
+    }
+
+    /*light mode font colors*/
+    .company-regular-light{
+        color: #111111;
+    }
+
+    .projectName-regular-light{
+        color: #111111;
+    }
+
+    .projectDescription-regular-light{
+        color: #444444;
+    }
+
+    /*dark mode font colors*/
+    .company-regular-dark{
+        color: #FFFFFF;
+    }
+
+    .projectName-regular-dark{
+        color: #FFFFFF;
+    }
+
+    .projectDescription-regular-dark{
+        color: #FFFFFF;
+    }
+
+    /*tag styling*/
+    .tag-regular{
+        height: 27px;
+        margin-right: 4px;
+        margin-bottom: 7px;
+    }
+
+    /*project image*/
+    .projectImage-regular{
+        width: 510px;
+
+        box-shadow: 3px 3px 30px 2px rgba(0, 0, 0, 0.21);
+        margin-left: 40px;
+    }
+
+    #whole-project-display:hover{
+        transform: scale(1.02);
+    }
+}
+
+@media screen and (max-width: 1195px) and (min-width: 870px){
+    .h1-font-settings{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 34px;
+        line-height: 30px;
+        margin-left: 0px;
+    }
+
+    .h2-font-settings{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 28px;
+        /* or 175% */
+    }
+
+    .h3-font-settings{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    /*big div styling*/
+    #text-section-regular{
+        display: flex;
+        width: 300px;
+        margin-top: 0px;
+    }
+
+    #whole-project-display{
+        display:flex;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    #emoji-regular{
+        margin-right: 8px;
+        width: 35px;
+        height: 35px;
+    }
+
+    /*light mode font colors*/
+    .company-regular-light{
+        color: #111111;
+    }
+
+    .projectName-regular-light{
+        color: #111111;
+    }
+
+    .projectDescription-regular-light{
+        color: #444444;
+    }
+
+    /*dark mode font colors*/
+    .company-regular-dark{
+        color: #FFFFFF;
+    }
+
+    .projectName-regular-dark{
+        color: #FFFFFF;
+    }
+
+    .projectDescription-regular-dark{
+        color: #FFFFFF;
+    }
+
+    /*tag styling*/
+    .tag-regular{
+        height: 22px;
+        margin-right: 4px;
+        margin-bottom: 4px;
+    }
+
+    /*project image*/
+    .projectImage-regular{
+        width: 400px;
+
+        box-shadow: 3px 3px 30px 2px rgba(0, 0, 0, 0.21);
+        margin-left: 0px;
+    }
+
+    .projectImage-regular:hover{
+        transform: scale(1.01);
+    }
+}
+
+
+
+@media screen and (max-width: 870px) and (min-width: 750px){
+    .h1-font-settings{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 26px;
+        line-height: 30px;
+        margin-left: 0px;
+    }
+
+    .h2-font-settings{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        /* or 175% */
+    }
+
+    .h3-font-settings{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    /*big div styling*/
+    #text-section-regular{
+        display: flex;
+        width: 250px;
+        margin-top: 0px;
+        margin-right:10px;
+    }
+
+    #whole-project-display{
+        display:flex;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    #emoji-regular{
+        margin-right: 8px;
+        width: 35px;
+        height: 35px;
+    }
+
+    /*light mode font colors*/
+    .company-regular-light{
+        color: #111111;
+    }
+
+    .projectName-regular-light{
+        color: #111111;
+    }
+
+    .projectDescription-regular-light{
+        color: #444444;
+    }
+
+    /*dark mode font colors*/
+    .company-regular-dark{
+        color: #FFFFFF;
+    }
+
+    .projectName-regular-dark{
+        color: #FFFFFF;
+    }
+
+    .projectDescription-regular-dark{
+        color: #FFFFFF;
+    }
+
+    /*tag styling*/
+    .tag-regular{
+        height: 22px;
+        margin-right: 4px;
+        margin-bottom: 4px;
+    }
+
+    /*project image*/
+    .projectImage-regular{
+        width: 350px;
+
+        box-shadow: 3px 3px 30px 2px rgba(0, 0, 0, 0.21);
+        margin-left: 0px;
+    }
+
+    .projectImage-regular:hover{
+        transform: scale(1.01);
+    }
+}
+
+
+@media screen and (max-width: 750px){
+    .h1-font-settings{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 40px;
+        line-height: 30px;
+        margin-left: 0px;
+    }
+
+    .h2-font-settings{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        /* or 175% */
+    }
+
+    .h3-font-settings{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+
+    /*Styling of text*/
+    .right-side-text{
+        width: 200px;
+        margin-left: 250px;
+        margin-top: -40px;
+    }
+
+    #allTags{
+        margin-top: -60px;
+        width: 250px;
+        position: absolute;
+        margin-left: -10px;
+    }
+
+    #text{
+    }
+
+    /*big div styling*/
+    #emoji-regular{
+        margin-right: 8px;
+        width: 35px;
+        height: 35px;
+    }
+
+    #text-section-regular{
+        display: flex;
+        width: 250px;
+        margin-top: 0px;
+        margin-right:10px;
+    }
+
+    /*light mode font colors*/
+    .company-regular-light{
+        color: #111111;
+    }
+
+    .projectName-regular-light{
+        color: #111111;
+    }
+
+    .projectDescription-regular-light{
+        color: #444444;
+    }
+
+    /*dark mode font colors*/
+    .company-regular-dark{
+        color: #FFFFFF;
+    }
+
+    .projectName-regular-dark{
+        color: #FFFFFF;
+    }
+
+    .projectDescription-regular-dark{
+        color: #FFFFFF;
+    }
+
+    /*tag styling*/
+    .tag-regular{
+        height: 22px;
+        margin-right: 4px;
+        margin-bottom: 4px;
+    }
+
+    /*project image*/
+    .projectImage-regular{
+        width: 500px;
+
+        box-shadow: 3px 3px 30px 2px rgba(0, 0, 0, 0.21);
+        margin-left: 0px;
+        position: relative;
+        margin-top: 40px;
+    }
+
+    .projectImage-regular:hover{
+        transform: scale(1.01);
+    }
+
+    /*
+
+    #seperation-line{
+        width: 112px;
+        height: 47px;
+        border-bottom: 1px solid #DADADA;
+        position: absolute;
+        transform: rotate(90deg);
+        }
+        */
+}

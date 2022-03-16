@@ -5,7 +5,6 @@ import '../style/background.css';
 import'../style/homePage.css';
 
 import Background from '../components/backgrounds/Background';
-import Sidebar from '../components/Sidebar';
 
 /*Emojis*/
 import wave from '../images/emojis/wave.png'
@@ -25,7 +24,7 @@ const HomePageDesign = (props) => (
             
 
             <div class= "heading-m">
-                I’m an engineering student and designer at UC Berkeley. 
+                I’m a human-centered designer and engineering student at UC Berkeley. 
                 My philosophy is to 
                 <span id = "bold"> innovate for impact.</span>
             </div>
@@ -40,7 +39,7 @@ const HomePageDesign = (props) => (
                 
                 <div class="list" id = "firstItem">
                     <img class = "little-emoji" id = "laptop" src ={laptop} />
-                    <div class= "list1-m">Incoming SWE intern @ <a class = {"list-link-" + props.mode} href="https://www.uber.com/">Uber</a></div>
+                    <div class= "list1-m">Incoming intern @ <a class = {"list-link-" + props.mode} href="https://www.uber.com/">Uber</a></div>
                 </div>
 
                 <div class="list">
@@ -59,10 +58,11 @@ const HomePageDesign = (props) => (
             </Link>
            
         </div>
-        <Sidebar/>
+        {/* <Sidebar/> */}
         <Background
             backgroundImage = {props.backGroundPic}
             backgroundColor = {props.backgroundColor}
+            backgroundCSS = "backgrounding"
         />
 
     </>

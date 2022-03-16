@@ -1,0 +1,18 @@
+#all-work{
+    margin-left: 50px;
+    
+}
+
+#fix-centering{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.project{
+    margin-bottom: 80px;
+}
+
+
+
+/*left-margin changes with media queries*/

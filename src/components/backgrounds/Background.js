@@ -3,7 +3,8 @@ import '../../style/background.css';
 
 const Background = (props) => (
     <>
-        <img src = {props.backgroundImage} class = "backgrounding" id = {props.backgroundColor}></img>
+    {/* backgroundColor options: white or black */}
+        <img src = {props.backgroundImage} class = "backgrounding" id = {props.backgroundColor} class = {props.backgroundCSS}></img>
     </>
 );
 

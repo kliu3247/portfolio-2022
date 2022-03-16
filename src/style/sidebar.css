@@ -24,7 +24,7 @@
         display: block;
         line-height: 25px;
         padding: 10px 0;
-        margin: 150px;
+        margin: 270px;
     }
 
     #add-padding{
@@ -38,13 +38,12 @@
     }
 
     #border-make{
-        transform: translate(0,100%) rotate(-90deg);
-        border-bottom: 2px solid #FFFFFF;
+        border-left: 2px solid #FFFFFF;
+        height: 100vh;
         position: absolute;
-        width: 3000px;
-        height: 0px;
-        left: -1400px;
-        top: 0px;
+        left: 110px;
+        margin-left: -3px;
+        top: 0;
     }
 }
 
@@ -54,9 +53,16 @@
         font-size: 15px;
         line-height: 24px;
         margin-right: 50px;
-        color: #ffffff;
         text-decoration: none;
         letter-spacing: 0.05em;
+    }
+
+    #white-if-light{
+        color: #ffffff;
+    }
+
+    #change-color-if-dark{
+        color: #b3b3b3;
     }
     
     .side-nav{
